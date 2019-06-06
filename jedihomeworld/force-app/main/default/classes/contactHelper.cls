@@ -1,5 +1,9 @@
 public with sharing class contactHelper {
 
+    public static void updatePayments(Set<id>contactSetId){
+        updatePayments(new List<id>(contactSetId));
+    }
+
     public static void updatePayments(List<id> contactListId){
 
         //List of contact and payments

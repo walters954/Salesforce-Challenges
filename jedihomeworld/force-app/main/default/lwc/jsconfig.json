@@ -2,7 +2,14 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/AccountPayment": [
+                "AccountPayment/AccountPayment.js"
+            ],
+            "c/accountPayment": [
+                "accountPayment/accountPayment.js"
+            ]
+        }
     },
     "include": [
         "**/*",
