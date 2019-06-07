@@ -3,9 +3,6 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/AccountPayment": [
-                "AccountPayment/AccountPayment.js"
-            ],
             "c/accountPayment": [
                 "accountPayment/accountPayment.js"
             ]

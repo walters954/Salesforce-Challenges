@@ -1,3 +1,9 @@
 <template>
-    <lightning-datatable data = {data} columns={columns} key-field="Id"></lightning-datatable>
+    <lightning-datatable 
+        data = {data} 
+        columns={columns}
+        key-field="Id" 
+        hide-checkbox-column
+        onrowaction={handleRowAction}>
+    </lightning-datatable>
 </template>
