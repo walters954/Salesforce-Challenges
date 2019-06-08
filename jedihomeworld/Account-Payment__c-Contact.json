@@ -1,0 +1,109 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Jedi",
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef1"
+                        },
+                        "Name": "Master Yoda",
+                        "FirstName": "Master",
+                        "LastName": "Yoda"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef2"
+                        },
+                        "Name": "Obi-Wan Kenobi",
+                        "FirstName": "Obi-Wan",
+                        "LastName": "Kenobi"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef3"
+                        },
+                        "Name": "Luke Skywalker",
+                        "FirstName": "Luke",
+                        "LastName": "Skywalker"
+                    }
+                ]
+            },
+            "Payments__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Payment__c",
+                            "referenceId": "Payment__cRef1"
+                        },
+                        "Name": "P-4",
+                        "Amount__c": 100,
+                        "Void__c": false,
+                        "Payment_Date__c": "2019-06-13"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Payment__c",
+                            "referenceId": "Payment__cRef2"
+                        },
+                        "Name": "P-1",
+                        "Amount__c": 100,
+                        "Void__c": true,
+                        "Payment_Date__c": "2019-06-08"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Payment__c",
+                            "referenceId": "Payment__cRef3"
+                        },
+                        "Name": "P-0",
+                        "Amount__c": 100,
+                        "Void__c": false,
+                        "Payment_Date__c": "2019-06-08"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Payment__c",
+                            "referenceId": "Payment__cRef4"
+                        },
+                        "Name": "P-3",
+                        "Amount__c": 100,
+                        "Void__c": false,
+                        "Payment_Date__c": "2019-06-08"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Payment__c",
+                            "referenceId": "Payment__cRef5"
+                        },
+                        "Name": "P-2",
+                        "Amount__c": 100,
+                        "Void__c": false,
+                        "Payment_Date__c": "2019-07-17"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Component Developers",
+            "Payments__r": {
+                "records": []
+            },
+            "Contacts": {
+                "records": []
+            }
+        }
+    ]
+}
