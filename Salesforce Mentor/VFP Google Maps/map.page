@@ -1,0 +1,19 @@
+<apex:page standardController="Object">
+  <apex:variable value="{!Object.Street},{!Object.City},{!Object.State} {!Object.Zip},{!Object.Country}" var="address"/>
+
+  <apex:map width="600px"
+            height="300px"
+            center="{!address}">
+
+   <apex:mapMarker title="{!address}"
+                   position="{!address}">
+
+      <apex:mapInfoWindow>
+          <apex:outputText>{!address}</apex:outputText>
+      </apex:mapInfoWindow>
+      
+    </apex:mapMarker>
+    
+  </apex:map>
+  
+</apex:page>
