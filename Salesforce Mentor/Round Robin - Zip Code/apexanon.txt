@@ -1,0 +1,9 @@
+Lead[] insertList = new Lead[]{};
+insertList.add(new Lead (LastName = 'test0', Company = 'comp0', PostalCode = '12345'));
+insertList.add(new Lead (LastName = 'test1', Company = 'comp0', PostalCode = '12345'));
+insertList.add(new Lead (LastName = 'test2', Company = 'comp0', PostalCode = '12345'));
+insertList.add(new Lead (LastName = 'test3', Company = 'comp0', PostalCode = '12345'));
+insertList.add(new Lead (LastName = 'test4', Company = 'comp0', PostalCode = '12345'));
+insertList.add(new Lead (LastName = 'test5', Company = 'comp0', PostalCode = '12345'));
+insertList.add(new Lead (LastName = 'test6', Company = 'comp0', PostalCode = '12345'));
+insert insertList;
